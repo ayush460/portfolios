@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5c8035f62d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1 class="po">Full Stack Developer</h1>
+                <h1 >Hi, I'm <span>Ayush</span> <br>from Gorakhpur</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ayush1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Ayush, I am  final year student with a degree in Electranics And Communication Engineering and a passion for Full Stack Development.
+                        As a fresher in the industry, I'm eager to put my skills and knowledge to work building innovative, user-centric web applications.
+With experience in Java, Html,Css,Java Script, Spring-Boot, and My Sql, I'm confident in my ability to contribute to any Full Stack Development team.
+During my studies, I completed several projects that demonstrate my ability to solve complex problems and deliver high-quality software on time and on budget.
+I'm excited about the opportunity to work with cutting-edge technologies and collaborate with other talented developers to build the next generation of web applications.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>2021-Current</span><br>Desigining Web/App interface</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>Android Development</span><br>Building Android/iOs apps</li>
+                            <li><span>Data Structure And Algorithmn</span><br>Solve 400 Problem Leetcode/Gfg</li>
+                            <li><span>Java Script</span>
+                            <li><span>Oops</span>
+                            <li><span>BootStrap</span>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Android Developer</span><br>Ladli Foundation</li>
+                            <li><span>Voluenteering</span><br>YouthEmpowerment Foundation</li>
+                            <li><span>Full Stack Develper</span><br>Accijob</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Intermediate from SAJIC Anandnagar</li>
+                            <li><span>2023</span><br>Btech from Bit Gida</li>
+                            <li><span>2023</span><br>Full stack tarining at accijob</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services----------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-light fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>User interface (UI) design refers to the aesthetic elements by which people interact with a product, such as buttons, icons, menu bars, typography, colors, and more. User experience (UX) design refers to the experience a user has when interacting with a product</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>App Developer</h2>
+
+                    <p>A mobile app developer uses programming languages and development skills to create, test, and develop applications on mobile devices. They work in popular operating system environments like iOS and Android and often take into account UI and UX principles when creating applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio------------------- -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you uou the talented
+                            people around the world.
+                            Dowanload it from playstore.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you uou the talented
+                            people around the world.
+                            Dowanload it from playstore.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you uou the talented
+                            people around the world.
+                            Dowanload it from playstore.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------contact----------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <P><i class="fa-sharp fa-regular fa-paper-plane-top"></i>amaddhesiya2003@gmail.com</P>
+                    <p><i class="fa-regular fa-phone"></i>6394528249</p>
+                <div class="social-icons">
+                <a href="https//:facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/yourid"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Ayush_Resume2.pdf" dowanload class="btn btn2">Dowanload Cv</a>
+            </div>
+        
+
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+      </div>
+      </div>
+      <div class="copyright">
+        <p>copyright @ Ayush. Made with <i class="fa-regular fa-heart"></i> by itself</p>
+      </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
